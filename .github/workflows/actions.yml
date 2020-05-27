@@ -10,4 +10,4 @@ jobs:
     - name: Construye imagen
       run: docker build --tag islasgeci/ejemplo_para_voluntarios .
     - name: Ejecuta objetivo principal del Makefile
-      run: docker run --volume ${PWD}:/workdir islasgeci/ejemplo_para_voluntarios
+      run: docker run --volume ${PWD}:/workdir islasgeci/ejemplo_para_voluntarios make
