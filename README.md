@@ -7,5 +7,5 @@ siguiente código en la terminal:
 git clone https://github.com/IslasGECI/ejemplo_para_voluntarios.git
 cd ejemplo_para_voluntarios
 docker build --tag islasgeci/ejemplo_para_voluntarios .
-docker run --rm --volume ${PWD}:/workdir islasgeci/ejemplo_para_voluntarios
+docker run --rm islasgeci/ejemplo_para_voluntarios make
 ```
